@@ -1,0 +1,11 @@
+SecurityEvent
+| where TimeGenerated > ago(3h)
+| where EventID == 4625
+| project
+    TimeGenerated,
+    Computer,
+    Account,
+    IpAddress,
+    LogonType,
+    Activity
+| order by TimeGenerated desc
