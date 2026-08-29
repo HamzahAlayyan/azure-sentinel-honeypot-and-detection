@@ -212,6 +212,21 @@ Deployed and monitored a Windows workload within Microsoft Azure and integrated 
 
 ---
 
+## Results
+
+The completed environment successfully demonstrated an end-to-end security monitoring workflow:
+
+- Deployed a Windows honeypot in Microsoft Azure
+- Generated and identified failed authentication events using Event ID 4625
+- Centralized Windows security telemetry in Azure Log Analytics
+- Integrated the telemetry with Microsoft Sentinel
+- Investigated authentication activity using KQL
+- Enriched source IP addresses with geographic information
+- Aggregated authentication failures by source IP
+- Visualized observed activity through a Microsoft Sentinel geographic attack map
+
+The project provided practical experience with the workflow used by security analysts to collect, query, enrich, and visualize security telemetry within a cloud-based SIEM.
+
 ## Skills Demonstrated
 
 `Azure` `Microsoft Sentinel` `SIEM` `KQL` `Log Analysis` `Threat Detection` `Windows Security Events` `AMA` `DCR` `Watchlists` `GeoIP Enrichment` `Security Monitoring` `Cloud Security` `Incident Investigation`
